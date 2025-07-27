@@ -200,6 +200,8 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 ## Aruco_Marker
 <img width="249" height="317" alt="image" src="https://github.com/user-attachments/assets/21a8fdd5-53c2-4bac-a920-fca9422b3c2d" />
 
+&nbsp;
+
 Camera: 영상 캡처 후
 /camera/image_raw/compressed 퍼블리시
 Aruco_detect: →영상 구독 ArUco →마커 검출
@@ -209,6 +211,8 @@ lane_detect stop -> /cmd_vel 퍼블리시
 Turtlebot_arm_controller: 서비스 발행
 Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 서비스 호출 및 요청에 따라 로봇 암/그리퍼 동작 실행
+
+&nbsp;
 
 ## 5. Simul vs Real
 ## 🔍 Real-World vs Simulation: 기술 차이 비교
@@ -226,6 +230,8 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 
 ---
 
+&nbsp;
+
 ## ⚙️ 파라미터 처리 방식
 
 | 항목 | 실제 구현 | 시뮬레이션 구현 |
@@ -237,6 +243,8 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 
 ---
 
+&nbsp;
+
 ## 📊 차선 검출 알고리즘
 
 | 항목 | 실제 구현 | 시뮬레이션 구현 |
@@ -247,6 +255,8 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 | 이동 평균 | - | 적용됨 |
 
 ---
+
+&nbsp;
 
 ## 🛠 ROS2 기반 시스템 구성
 
@@ -279,28 +289,28 @@ ros2 launch turtlebot3_manipulation_moveit_config moveit_core.launch.py
 &nbsp;
 
 ### 📸 Camera Publisher (Aruco + YOLO)
-- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/camera_pub)
+- 코드: [`camera_pub.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/camera_pub)
 ```bash
 ros2 run aruco_yolo camera_pub
 ```
 
 &nbsp;
 ### ⚙️ Servo 
-- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/servo.launch.py)
+- 코드: [`servo.launch.py`](./rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/servo.launch.py)
 ```bash
 ros2 launch turtlebot3_manipulation_moveit_config servo.launch.py
 ```
 
 &nbsp;
 ### 🦾 Arm Controller
-- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit/src/turtlebot_arm_controller.cpp)
+- 코드: [`turtlebot_arm_controller.cpp`](./rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit/src/turtlebot_arm_controller.cpp)
 ```bash
 ros2 run turtlebot_moveit turtlebot_arm_controller
 ```
 
 &nbsp;
 ### 🛣️ Lane Detection
-- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/lane_detector/lane_detector/lane_detect.py)
+- 코드: [`lane_detect.py`](./rokeypj_ws/src/lane_detector/lane_detector/lane_detect.py)
 ```bash
 ros2 run lane_detector lane_detect
 ```
@@ -308,7 +318,7 @@ ros2 run lane_detector lane_detect
 &nbsp;
 
 ### 🖐️ Pick and Place
-- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/pick_and_place)
+- 코드: [`pick_and_place.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/pick_and_place.py)
 ```bash
 ros2 run aruco_yolo pick_and_place
 ```
