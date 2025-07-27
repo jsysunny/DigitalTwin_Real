@@ -15,10 +15,11 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 1. [📌 프로젝트 개요](#1--프로젝트-개요)
 2. [🔧 구성 요소](#2--구성-요소)  
 3. [💻 사용 기술](#3--사용-기술)  
-4. [🧭 동작 흐름 요약](#4--동작-흐름-요약)  
-5. [💻 코드 실행 방법](#5--코드-실행-방법)  
-6. [📷 시연 영상/이미지](#6--시연-영상--이미지)  
-7. [🌟 기대 효과/ 한계점 및 개선점](#7--기대-효과)  
+4. [🧭 동작 흐름 요약](#4--동작-흐름-요약)
+5. [🧪 Simul vs Real](#5--Simul---Real)  
+6. [💻 코드 실행 방법](#6--코드-실행-방법)  
+7. [📷 시연 영상/이미지](#7--시연-영상--이미지)  
+8. [🌟 기대 효과/ 한계점 및 개선점](#8--기대-효과)  
 
    
 &nbsp;
@@ -216,19 +217,39 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 
 &nbsp;
 
-Camera: 영상 캡처 후
-/camera/image_raw/compressed 퍼블리시
-Aruco_detect: →영상 구독 ArUco →마커 검출
-detected_markers 퍼블리시
-Lane_detect: detected_markers →구독 detect하면 기존
-lane_detect stop -> /cmd_vel 퍼블리시
-Turtlebot_arm_controller: 서비스 발행
-Pick_and_place: /cmd_vel 등 트리거로 moveit_control
-서비스 호출 및 요청에 따라 로봇 암/그리퍼 동작 실행
+### 📸 Camera
+- 영상 캡처 후 `/camera/image_raw/compressed` 토픽으로 퍼블리시
 
 &nbsp;
 
-## 5. Simul vs Real
+### 🎯 Aruco_detect
+- `/camera/image_raw/compressed` 구독  
+- ArUco 마커 검출  
+- 검출된 결과를 `/detected_markers`로 퍼블리시
+
+&nbsp;
+
+### 🛣️ Lane_detect
+- `/detected_markers` 구독  
+- 마커 감지 시 기존 `lane_detect` 정지  
+- `/cmd_vel`로 정지 명령 퍼블리시
+
+&nbsp;
+
+### 🦾 Turtlebot_arm_controller
+- 로봇 팔 제어를 위한 서비스 제공
+
+&nbsp;
+
+### 🖐️📦 Pick_and_place
+- `/cmd_vel` 등 특정 조건 트리거 시  
+- `moveit_control` 서비스 호출  
+- 요청에 따라 로봇 암 및 그리퍼 동작 실행
+
+
+&nbsp;
+
+## 5. 🧪 Simul vs Real
 ## 🔍 Real-World vs Simulation: 기술 차이 비교
 
 | 항목 | Real-World (실제 주행) | Simulation (시뮬레이션) |
@@ -337,11 +358,11 @@ ros2 run aruco_yolo pick_and_place
 ```
 
 &nbsp;
-## 6. 📷 시연 영상 / 이미지
+## 7. 📷 시연 영상 / 이미지
 > https://youtu.be/hl8J-E7p_yg
 
 &nbsp;
-## 7. 🌟 기대 효과
+## 8. 🌟 기대 효과
 ### 📌 프로젝트 기대 효과
 
 | 구분             | 효과                        | 설명                                             |
