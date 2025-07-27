@@ -95,7 +95,9 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 - `declare_parameter(k, v)` → `self.get_parameter(k).value`를 `setattr(self, k, ...)`으로 클래스 속성에 할당.
 - 런치 파일 또는 `ros2 param set`으로 외부 값 변경 시 코드 내에서 `self.<파라미터명>`으로 실시간 반영 가능.
 
----
+
+&nbsp;
+
 
 ### 2. 🧠 초기화 및 상태 변수 설정
 
@@ -108,7 +110,7 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 | `self.prev_err`, `self.integral` | PID 오차 및 적분값 |
 | `self.pick_in_progress`, `self.marker_detected` | ArUco 픽업 작업 플래그 |
 
----
+&nbsp;
 
 ### 3. 🔗 구독 & 퍼블리셔 구성
 
@@ -122,7 +124,9 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 | `/detected_markers` | ArUco 마커 구독 (`marker_callback()`) |
 | 디버그 퍼블리셔 | 마스크, 추적 영상 출력 |
 
----
+
+&nbsp;
+
 
 ### 4. ⏱️ 타이머 및 콜백 구조
 
@@ -130,14 +134,18 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 - `MutuallyExclusiveCallbackGroup()`으로 콜백 충돌 방지
 - `self.delayed_stop_timer` 등 상태 변수 초기화
 
----
+
+&nbsp;
+
 
 ### 5. 🧭 PID 제어 및 주행 구조
 
 - PID 게인 (`kp`, `ki`, `kd`)과 제한값 (`max_a`, `min_v`, `max_v`) 설정
 - `self.prev_err`, `self.integral` → 좌우 차선 중심 기반 조향 제어
 
----
+
+&nbsp;
+
 
 ### 6. 📷 콜백 함수 구성
 
@@ -160,7 +168,9 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 - 빈 `Twist()` 퍼블리시 → 즉시 정지
 - 타이머 정리 및 중복 정지 방지
 
----
+
+&nbsp;
+
 
 ### 7. 🧠 Main 이미지 처리 루프: `image_callback()`
 
@@ -174,7 +184,9 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
   - `cv2.countNonZero()` → 픽셀 수 집계
   - `only_y`, `only_w`, `both` 상태 구분
 
----
+
+&nbsp;
+
 
 ### 8. 🔁 복구 로직 흐름
 
@@ -185,7 +197,9 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
   - 일정 시간 정지 후 → 회전 주행
   - `both` 감지되거나 시간 초과 시 → 관절 복귀, `restored` 상태로 전환
 
----
+
+&nbsp;
+
 
 ### 9. 🎯 PID 보정 + 조인트 보정
 
@@ -228,7 +242,7 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 | 📤 출력(퍼블리시) | `/cmd_vel`, ArUco 마커 감지, pick 트리거 | `/detect/lane`, `/lane_state`, 예측 결과 포함 |
 | 🧩 추가 기능 | ArUco 마커 감지 후 픽업 수행 | 신호등, 표지판 상태 인식, 픽업/회피 전략 포함 |
 
----
+
 
 &nbsp;
 
@@ -241,7 +255,6 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 | 클래스 속성 할당 | `self.get_parameter(k).value` → `setattr(self, k, ...)` | 동일 |
 | 자동화 모드 | - | `reconfigure` 통해 자동 보정 기능도 지원 |
 
----
 
 &nbsp;
 
@@ -254,8 +267,6 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 | 중심 계산 | 히스토그램 분포의 절반 이상 영역 | 다수 프레임 평균으로 노이즈 제거 |
 | 이동 평균 | - | 적용됨 |
 
----
-
 &nbsp;
 
 ## 🛠 ROS2 기반 시스템 구성
@@ -267,6 +278,8 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 | 퍼블리시 토픽 | `/cmd_vel`, `/pick_trigger`, `/debug_image` | `/detect/lane`, `/lane_state`, `/predict_result` 등 |
 | 특징 | 노이즈 많고 정지 정확도 필요 | 이상적인 센서 환경, 실시간 상태 시각화 |
 
+
+&nbsp;
 
 ## 6. 💻 코드 실행 방법
 
