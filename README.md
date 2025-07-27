@@ -260,18 +260,17 @@ Pick_and_place: /cmd_vel 등 트리거로 moveit_control
 
 ## 6. 💻 코드 실행 방법
 
-### 🚗 전체 시뮬레이션 실행 (Auto)
-- 코드: [`turtlebot3_autorace_2020.launch.py`](./turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3_autorace_2020.world)
+### 🔌 Hardware Bringup
+- 코드: [`hardware.launch.py`](./rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup/launch/hardware.launch.py)
 
 ```bash
 ros2 launch turtlebot3_manipulation_bringup hardware.launch.py
 ```
 
-
 &nbsp;
 
-### 🎥 내부 카메라 캘리브레이션 (Intrinsic)
-- 코드: [`intrinsic_camera_calibration.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera/launch/intrinsic_camera_calibration.launch.py)
+### 🤖 MoveIt Core
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_core.launch.py)
 
 ```bash
 ros2 launch turtlebot3_manipulation_moveit_config moveit_core.launch.py
@@ -279,45 +278,37 @@ ros2 launch turtlebot3_manipulation_moveit_config moveit_core.launch.py
 
 &nbsp;
 
-### 📸 외부 카메라 캘리브레이션 (Extrinsic)
-- 코드: [`extrinsic_camera_calibration.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera/launch/extrinsic_camera_calibration.launch.py)
-
+### 📸 Camera Publisher (Aruco + YOLO)
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/camera_pub)
 ```bash
 ros2 run aruco_yolo camera_pub
 ```
 
 &nbsp;
-
-### 🔀 MUX 제어 노드
-- 코드: [`mux_node`](./turtlebot3_ws/src/cmd_vel_mux/cmd_vel_mux/mux_node.py)
-
+### ⚙️ Servo 
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/servo.launch.py)
 ```bash
 ros2 launch turtlebot3_manipulation_moveit_config servo.launch.py
 ```
 
 &nbsp;
-
-### 🛣️ 차선 감지 (Detect Lane)
-- 코드: [`detect_lane.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_lane.launch.py)
-
+### 🦾 Arm Controller
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit/src/turtlebot_arm_controller.cpp)
 ```bash
 ros2 run turtlebot_moveit turtlebot_arm_controller
 ```
 
 &nbsp;
-
-### 🧭 차선 제어 (Control Lane)
-- 코드: [`control_lane.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_mission/launch/control_lane.launch.py)
-
+### 🛣️ Lane Detection
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/lane_detector/lane_detector/lane_detect.py)
 ```bash
 ros2 run lane_detector lane_detect
 ```
 
 &nbsp;
 
-### 🚦 신호등 감지 (Detect Traffic Light)
-- 코드: [`detect_traffic_light.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_traffic_light.launch.py)
-
+### 🖐️ Pick and Place
+- 코드: [`moveit_core.launch.py`](./rokeypj_ws/src/aruco_yolo/aruco_yolo/pick_and_place)
 ```bash
 ros2 run aruco_yolo pick_and_place
 ```
