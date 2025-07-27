@@ -1,0 +1,228 @@
+[0.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/seoyoon/rokeypj_ws']
+[0.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/seoyoon/rokeypj_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7274129c6770>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7274129c56c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7274129c56c0>>)
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seoyoon/rokeypj_ws'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/build) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/build) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/install) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/install) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/log) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/log) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/aruco_yolo) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/aruco_yolo' with type 'ros.ament_python' and name 'aruco_yolo'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_detector) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/lane_detector' with type 'ros.ament_python' and name 'lane_detector'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/lane_follower_pkg) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/lane_follower_pkg' with type 'ros.ament_python' and name 'lane_follower_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/ld08_driver) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/sample_pkg) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/sample_pkg' with type 'ros.ament_python' and name 'sample_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_bringup'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_description'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_hardware'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_moveit_config'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_teleop'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface' with type 'ros.ament_cmake' and name 'turtlebot_cosmo_interface'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seoyoon/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit' with type 'ros.ament_cmake' and name 'turtlebot_moveit'
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

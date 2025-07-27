@@ -1,0 +1,26 @@
+[2.477s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/build --no-deps symlink_data
+[3.858s] running develop
+[4.691s] running egg_info
+[4.692s] creating my_v4l2_camera_launch.egg-info
+[4.693s] writing my_v4l2_camera_launch.egg-info/PKG-INFO
+[4.693s] writing dependency_links to my_v4l2_camera_launch.egg-info/dependency_links.txt
+[4.693s] writing entry points to my_v4l2_camera_launch.egg-info/entry_points.txt
+[4.693s] writing requirements to my_v4l2_camera_launch.egg-info/requires.txt
+[4.693s] writing top-level names to my_v4l2_camera_launch.egg-info/top_level.txt
+[4.694s] writing manifest file 'my_v4l2_camera_launch.egg-info/SOURCES.txt'
+[4.698s] reading manifest file 'my_v4l2_camera_launch.egg-info/SOURCES.txt'
+[4.700s] writing manifest file 'my_v4l2_camera_launch.egg-info/SOURCES.txt'
+[4.706s] running build_ext
+[4.706s] Creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages/my-v4l2-camera-launch.egg-link (link to .)
+[4.706s] Installing filtered_image_node script to /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/my_v4l2_camera_launch
+[4.707s] 
+[4.707s] Installed /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch
+[4.707s] running symlink_data
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/ament_index
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/ament_index/resource_index
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/ament_index/resource_index/packages
+[4.708s] symbolically linking /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/resource/my_v4l2_camera_launch -> /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/ament_index/resource_index/packages
+[4.708s] symbolically linking /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/package.xml -> /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/my_v4l2_camera_launch
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/my_v4l2_camera_launch/launch
+[4.709s] symbolically linking /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/launch/my_v4l2_camera_launch.py -> /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/share/my_v4l2_camera_launch/launch
+[4.933s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/build --no-deps symlink_data

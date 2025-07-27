@@ -1,0 +1,45 @@
+# Simple USB Camera Calibration Parameters
+# Resolution: 640x480 (VGA)
+# Standard USB webcam resolution
+
+image_width: 640
+image_height: 480
+
+# Camera intrinsic matrix (3x3)
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [525.0, 0.0, 320.0,
+         0.0, 525.0, 240.0,
+         0.0, 0.0, 1.0]
+
+# Distortion coefficients [k1, k2, p1, p2, k3]
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.08, -0.12, 0.001, -0.001, 0.02]
+
+# Focal lengths and principal point
+focal_length:
+  fx: 525.0
+  fy: 525.0
+
+principal_point:
+  cx: 320.0
+  cy: 240.0
+
+# Simplified JSON format
+json_format: |
+  {
+    "image_width": 640,
+    "image_height": 480,
+    "fx": 525.0,
+    "fy": 525.0,
+    "cx": 320.0,
+    "cy": 240.0,
+    "k1": 0.08,
+    "k2": -0.12,
+    "p1": 0.001,
+    "p2": -0.001,
+    "k3": 0.02
+  }

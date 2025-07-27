@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface/ament_cmake_python/turtlebot_cosmo_interface/turtlebot_cosmo_interface.egg-info/dependency_links.txt

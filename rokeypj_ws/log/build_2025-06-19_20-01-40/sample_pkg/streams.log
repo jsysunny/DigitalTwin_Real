@@ -1,0 +1,16 @@
+[2.761s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/sample_pkg': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/sample_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/sample_pkg/build --no-deps symlink_data
+[3.684s] running develop
+[4.200s] running egg_info
+[4.201s] writing sample_pkg.egg-info/PKG-INFO
+[4.201s] writing dependency_links to sample_pkg.egg-info/dependency_links.txt
+[4.202s] writing entry points to sample_pkg.egg-info/entry_points.txt
+[4.202s] writing requirements to sample_pkg.egg-info/requires.txt
+[4.202s] writing top-level names to sample_pkg.egg-info/top_level.txt
+[4.207s] reading manifest file 'sample_pkg.egg-info/SOURCES.txt'
+[4.209s] writing manifest file 'sample_pkg.egg-info/SOURCES.txt'
+[4.214s] running build_ext
+[4.214s] Creating /home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages/sample-pkg.egg-link (link to .)
+[4.216s] 
+[4.216s] Installed /home/rokey-jw/rokeypj_ws/build/sample_pkg
+[4.216s] running symlink_data
+[4.317s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/sample_pkg' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/sample_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/sample_pkg/build --no-deps symlink_data

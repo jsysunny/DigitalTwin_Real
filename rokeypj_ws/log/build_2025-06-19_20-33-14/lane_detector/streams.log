@@ -1,0 +1,17 @@
+[3.480s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/lane_detector': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_detector/build --no-deps symlink_data
+[4.143s] running develop
+[4.653s] running egg_info
+[4.653s] writing lane_detector.egg-info/PKG-INFO
+[4.654s] writing dependency_links to lane_detector.egg-info/dependency_links.txt
+[4.654s] writing entry points to lane_detector.egg-info/entry_points.txt
+[4.655s] writing requirements to lane_detector.egg-info/requires.txt
+[4.655s] writing top-level names to lane_detector.egg-info/top_level.txt
+[4.660s] reading manifest file 'lane_detector.egg-info/SOURCES.txt'
+[4.661s] writing manifest file 'lane_detector.egg-info/SOURCES.txt'
+[4.665s] running build_ext
+[4.665s] Creating /home/rokey-jw/rokeypj_ws/install/lane_detector/lib/python3.10/site-packages/lane-detector.egg-link (link to .)
+[4.667s] Installing lane_detect script to /home/rokey-jw/rokeypj_ws/install/lane_detector/lib/lane_detector
+[4.668s] 
+[4.668s] Installed /home/rokey-jw/rokeypj_ws/build/lane_detector
+[4.668s] running symlink_data
+[4.785s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/lane_detector' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_detector/build --no-deps symlink_data

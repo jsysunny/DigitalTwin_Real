@@ -1,0 +1,3 @@
+[console_scripts]
+filtered_image_node = my_v4l2_camera_launch.filtered_image_node:main
+

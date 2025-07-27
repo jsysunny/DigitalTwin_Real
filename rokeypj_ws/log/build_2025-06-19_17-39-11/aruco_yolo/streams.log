@@ -1,0 +1,36 @@
+[3.211s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data
+[3.953s] running develop
+[4.690s] running egg_info
+[4.690s] creating aruco_yolo.egg-info
+[4.690s] writing aruco_yolo.egg-info/PKG-INFO
+[4.691s] writing dependency_links to aruco_yolo.egg-info/dependency_links.txt
+[4.692s] writing entry points to aruco_yolo.egg-info/entry_points.txt
+[4.693s] writing requirements to aruco_yolo.egg-info/requires.txt
+[4.694s] writing top-level names to aruco_yolo.egg-info/top_level.txt
+[4.695s] writing manifest file 'aruco_yolo.egg-info/SOURCES.txt'
+[4.702s] reading manifest file 'aruco_yolo.egg-info/SOURCES.txt'
+[4.705s] writing manifest file 'aruco_yolo.egg-info/SOURCES.txt'
+[4.714s] running build_ext
+[4.717s] Creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages/aruco-yolo.egg-link (link to .)
+[4.721s] Installing aruco_detector script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[4.722s] Installing aruco_move script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[4.723s] Installing camera_pub script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[4.724s] Installing compressed_image_pub script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[4.725s] Installing yolo_detector script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[4.726s] 
+[4.726s] Installed /home/rokey-jw/rokeypj_ws/build/aruco_yolo
+[4.727s] running symlink_data
+[4.728s] creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/ament_index
+[4.728s] creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/ament_index/resource_index
+[4.729s] creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/ament_index/resource_index/packages
+[4.729s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/resource/aruco_yolo -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/ament_index/resource_index/packages
+[4.730s] creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/launch
+[4.731s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/launch/camera.launch.py -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/launch
+[4.732s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/launch/aruco_move.launch.py -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/launch
+[4.732s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/launch/aruco_yolo.launch.py -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/launch
+[4.733s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/launch/aruco_last.launch.py -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/launch
+[4.734s] creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/config
+[4.734s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/config/camera_params.yaml -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/config
+[4.735s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/config/calibration_params.yaml -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/config
+[4.736s] symbolically linking /home/rokey-jw/rokeypj_ws/build/aruco_yolo/package.xml -> /home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo
+[4.982s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data

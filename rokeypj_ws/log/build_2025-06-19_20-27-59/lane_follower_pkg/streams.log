@@ -1,0 +1,17 @@
+[4.682s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/build --no-deps symlink_data
+[6.374s] running develop
+[7.587s] running egg_info
+[7.594s] writing lane_follower_pkg.egg-info/PKG-INFO
+[7.595s] writing dependency_links to lane_follower_pkg.egg-info/dependency_links.txt
+[7.596s] writing entry points to lane_follower_pkg.egg-info/entry_points.txt
+[7.598s] writing requirements to lane_follower_pkg.egg-info/requires.txt
+[7.598s] writing top-level names to lane_follower_pkg.egg-info/top_level.txt
+[7.599s] reading manifest file 'lane_follower_pkg.egg-info/SOURCES.txt'
+[7.599s] writing manifest file 'lane_follower_pkg.egg-info/SOURCES.txt'
+[7.610s] running build_ext
+[7.610s] Creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages/lane-follower-pkg.egg-link (link to .)
+[7.614s] Installing lane_follower script to /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/lane_follower_pkg
+[7.616s] 
+[7.616s] Installed /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg
+[7.616s] running symlink_data
+[7.769s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/build --no-deps symlink_data

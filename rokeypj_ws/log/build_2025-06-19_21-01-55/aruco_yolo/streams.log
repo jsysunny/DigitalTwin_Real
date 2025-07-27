@@ -1,0 +1,23 @@
+[4.359s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data
+[5.439s] running develop
+[6.191s] running egg_info
+[6.192s] writing aruco_yolo.egg-info/PKG-INFO
+[6.193s] writing dependency_links to aruco_yolo.egg-info/dependency_links.txt
+[6.193s] writing entry points to aruco_yolo.egg-info/entry_points.txt
+[6.193s] writing requirements to aruco_yolo.egg-info/requires.txt
+[6.193s] writing top-level names to aruco_yolo.egg-info/top_level.txt
+[6.198s] reading manifest file 'aruco_yolo.egg-info/SOURCES.txt'
+[6.200s] writing manifest file 'aruco_yolo.egg-info/SOURCES.txt'
+[6.205s] running build_ext
+[6.206s] Creating /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages/aruco-yolo.egg-link (link to .)
+[6.208s] Installing aruco_detector script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.209s] Installing aruco_move script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.209s] Installing camera_pub script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.209s] Installing compressed_image_pub script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.209s] Installing moveit_client script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.210s] Installing pick_and_place script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.210s] Installing yolo_detector script to /home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/aruco_yolo
+[6.210s] 
+[6.211s] Installed /home/rokey-jw/rokeypj_ws/build/aruco_yolo
+[6.211s] running symlink_data
+[6.509s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data

@@ -1,0 +1,133 @@
+[0.144s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface -- -j6 -l6
+[2.004s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_generator_c[0m
+[2.005s] [  3%] Built target turtlebot_cosmo_interface__cpp
+[2.005s] [ 12%] Built target turtlebot_cosmo_interface__rosidl_generator_c
+[2.006s] [ 12%] Built target ament_cmake_python_symlink_turtlebot_cosmo_interface
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cpp[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_introspection_cpp[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_c[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_cpp[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_introspection_c[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_c[0m
+[2.007s] [ 22%] Built target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cpp
+[2.008s] [ 32%] Built target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_c
+[2.008s] [ 41%] Built target turtlebot_cosmo_interface__rosidl_typesupport_introspection_cpp
+[2.008s] [ 51%] Built target turtlebot_cosmo_interface__rosidl_typesupport_cpp
+[2.008s] [ 61%] Built target turtlebot_cosmo_interface__rosidl_typesupport_introspection_c
+[2.008s] [ 70%] Built target turtlebot_cosmo_interface__rosidl_typesupport_c
+[2.008s] [ 70%] Built target turtlebot_cosmo_interface
+[2.008s] [ 74%] Built target turtlebot_cosmo_interface__py
+[2.008s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_generator_py[0m
+[2.009s] [ 80%] Built target turtlebot_cosmo_interface__rosidl_generator_py
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_introspection_c__pyext[0m
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_cosmo_interface__rosidl_typesupport_c__pyext[0m
+[2.009s] [ 87%] Built target turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.010s] [ 93%] Built target turtlebot_cosmo_interface__rosidl_typesupport_introspection_c__pyext
+[2.010s] [100%] Built target turtlebot_cosmo_interface__rosidl_typesupport_c__pyext
+[2.010s] running egg_info
+[2.010s] writing turtlebot_cosmo_interface.egg-info/PKG-INFO
+[2.010s] writing dependency_links to turtlebot_cosmo_interface.egg-info/dependency_links.txt
+[2.011s] writing top-level names to turtlebot_cosmo_interface.egg-info/top_level.txt
+[2.011s] reading manifest file 'turtlebot_cosmo_interface.egg-info/SOURCES.txt'
+[2.011s] writing manifest file 'turtlebot_cosmo_interface.egg-info/SOURCES.txt'
+[2.011s] [100%] Built target ament_cmake_python_build_turtlebot_cosmo_interface_egg
+[2.999s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface -- -j6 -l6
+[3.001s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface
+[3.023s] -- Install configuration: ""
+[3.043s] -- Execute custom install script
+[3.047s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/ament_index/resource_index/rosidl_interfaces/turtlebot_cosmo_interface
+[3.047s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/msg/rosidl_generator_c__visibility_control.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__functions.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__struct.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__type_support.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/moveit_control.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/library_path.sh
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/library_path.dsv
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.048s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__rosidl_typesupport_fastrtps_c.h
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__builder.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__struct.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__traits.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__type_support.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/moveit_control.hpp
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.049s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__rosidl_typesupport_fastrtps_cpp.hpp
+[3.050s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__rosidl_typesupport_introspection_c.h
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/include/turtlebot_cosmo_interface/turtlebot_cosmo_interface/srv/detail/moveit_control__rosidl_typesupport_introspection_cpp.hpp
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/pythonpath.sh
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/pythonpath.dsv
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.055s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface-0.0.0-py3.10.egg-info/top_level.txt
+[3.056s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/__init__.py
+[3.056s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/_turtlebot_cosmo_interface_s.ep.rosidl_typesupport_c.c
+[3.056s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/_turtlebot_cosmo_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.056s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/_turtlebot_cosmo_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.056s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/libturtlebot_cosmo_interface__rosidl_generator_py.so
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/srv/__init__.py
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/srv/_moveit_control.py
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/srv/_moveit_control_s.c
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.057s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.058s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.058s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/turtlebot_cosmo_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.058s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/srv/MoveitControl.idl
+[3.058s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/srv/MoveitControl.srv
+[3.058s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/srv/MoveitControl_Request.msg
+[3.059s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/srv/MoveitControl_Response.msg
+[3.059s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/ament_index/resource_index/package_run_dependencies/turtlebot_cosmo_interface
+[3.059s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/ament_index/resource_index/parent_prefix_path/turtlebot_cosmo_interface
+[3.060s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/ament_prefix_path.sh
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/ament_prefix_path.dsv
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/path.sh
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/environment/path.dsv
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/local_setup.bash
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/local_setup.sh
+[3.063s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/local_setup.zsh
+[3.064s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/local_setup.dsv
+[3.064s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.dsv
+[3.111s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/ament_index/resource_index/packages/turtlebot_cosmo_interface
+[3.111s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/rosidl_cmake-extras.cmake
+[3.111s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.111s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.112s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.112s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.112s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.112s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.113s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interfaceConfig.cmake
+[3.113s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interfaceConfig-version.cmake
+[3.113s] -- Up-to-date symlink: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.xml
+[3.118s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_generator_c.so
+[3.119s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_fastrtps_c.so
+[3.124s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cpp.so
+[3.124s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_introspection_c.so
+[3.124s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_c.so
+[3.125s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_introspection_cpp.so
+[3.128s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_typesupport_cpp.so
+[3.310s] Listing '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface'...
+[3.310s] Listing '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages/turtlebot_cosmo_interface/srv'...
+[3.335s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/libturtlebot_cosmo_interface__rosidl_generator_py.so
+[3.335s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_generator_cExport.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_generator_cExport-noconfig.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_generator_cppExport.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.336s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_introspection_cExport.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_cExport.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_cExport-noconfig.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.337s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_cppExport.cmake
+[3.338s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/turtlebot_cosmo_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[3.338s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_generator_pyExport.cmake
+[3.338s] -- Up-to-date: /home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/cmake/export_turtlebot_cosmo_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.364s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface

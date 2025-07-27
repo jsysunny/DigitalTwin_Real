@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/ament_cmake_environment_hooks/local_setup.zsh

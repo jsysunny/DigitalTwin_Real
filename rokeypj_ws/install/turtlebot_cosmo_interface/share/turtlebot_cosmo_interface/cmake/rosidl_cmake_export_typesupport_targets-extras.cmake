@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

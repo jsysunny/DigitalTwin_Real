@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/ament_cmake_core/turtlebot_moveitConfig.cmake

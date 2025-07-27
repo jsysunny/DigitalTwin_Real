@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/my_v4l2_camera_launch.py
+my_v4l2_camera_launch/__init__.py
+my_v4l2_camera_launch/filtered_image_node.py
+my_v4l2_camera_launch.egg-info/PKG-INFO
+my_v4l2_camera_launch.egg-info/SOURCES.txt
+my_v4l2_camera_launch.egg-info/dependency_links.txt
+my_v4l2_camera_launch.egg-info/entry_points.txt
+my_v4l2_camera_launch.egg-info/requires.txt
+my_v4l2_camera_launch.egg-info/top_level.txt
+my_v4l2_camera_launch.egg-info/zip-safe
+resource/my_v4l2_camera_launch

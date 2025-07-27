@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface/rosidl_generator_py/turtlebot_cosmo_interface/_turtlebot_cosmo_interface_s.ep.rosidl_typesupport_fastrtps_c.c

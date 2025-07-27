@@ -1,0 +1,3 @@
+[console_scripts]
+lane_detect = lane_detector.lane_detect:main
+

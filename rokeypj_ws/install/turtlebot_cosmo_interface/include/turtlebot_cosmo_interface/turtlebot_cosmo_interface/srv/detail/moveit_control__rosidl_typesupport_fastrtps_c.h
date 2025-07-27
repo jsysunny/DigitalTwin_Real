@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface/rosidl_typesupport_fastrtps_c/turtlebot_cosmo_interface/srv/detail/moveit_control__rosidl_typesupport_fastrtps_c.h

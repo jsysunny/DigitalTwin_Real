@@ -1,0 +1,17 @@
+[3.206s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/build --no-deps symlink_data
+[4.802s] running develop
+[5.594s] running egg_info
+[5.594s] writing my_v4l2_camera_launch.egg-info/PKG-INFO
+[5.594s] writing dependency_links to my_v4l2_camera_launch.egg-info/dependency_links.txt
+[5.594s] writing entry points to my_v4l2_camera_launch.egg-info/entry_points.txt
+[5.595s] writing requirements to my_v4l2_camera_launch.egg-info/requires.txt
+[5.595s] writing top-level names to my_v4l2_camera_launch.egg-info/top_level.txt
+[5.600s] reading manifest file 'my_v4l2_camera_launch.egg-info/SOURCES.txt'
+[5.602s] writing manifest file 'my_v4l2_camera_launch.egg-info/SOURCES.txt'
+[5.609s] running build_ext
+[5.609s] Creating /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages/my-v4l2-camera-launch.egg-link (link to .)
+[5.616s] Installing filtered_image_node script to /home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/my_v4l2_camera_launch
+[5.616s] 
+[5.616s] Installed /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch
+[5.616s] running symlink_data
+[5.755s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/my_v4l2_camera_launch/build --no-deps symlink_data

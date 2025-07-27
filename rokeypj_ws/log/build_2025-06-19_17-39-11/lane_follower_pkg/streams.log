@@ -1,0 +1,26 @@
+[3.242s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/build --no-deps symlink_data
+[4.021s] running develop
+[4.678s] running egg_info
+[4.679s] creating lane_follower_pkg.egg-info
+[4.679s] writing lane_follower_pkg.egg-info/PKG-INFO
+[4.680s] writing dependency_links to lane_follower_pkg.egg-info/dependency_links.txt
+[4.680s] writing entry points to lane_follower_pkg.egg-info/entry_points.txt
+[4.680s] writing requirements to lane_follower_pkg.egg-info/requires.txt
+[4.680s] writing top-level names to lane_follower_pkg.egg-info/top_level.txt
+[4.681s] writing manifest file 'lane_follower_pkg.egg-info/SOURCES.txt'
+[4.685s] reading manifest file 'lane_follower_pkg.egg-info/SOURCES.txt'
+[4.686s] writing manifest file 'lane_follower_pkg.egg-info/SOURCES.txt'
+[4.703s] running build_ext
+[4.704s] Creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages/lane-follower-pkg.egg-link (link to .)
+[4.706s] Installing lane_follower script to /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/lane_follower_pkg
+[4.707s] 
+[4.707s] Installed /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg
+[4.707s] running symlink_data
+[4.707s] creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/ament_index
+[4.707s] creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/ament_index/resource_index
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/ament_index/resource_index/packages
+[4.708s] symbolically linking /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/resource/lane_follower_pkg -> /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/ament_index/resource_index/packages
+[4.708s] symbolically linking /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/package.xml -> /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/lane_follower_pkg
+[4.708s] creating /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/lane_follower_pkg/launch
+[4.708s] symbolically linking /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/launch/lane_follower.launch.py -> /home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/share/lane_follower_pkg/launch
+[4.851s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/lane_follower_pkg/build --no-deps symlink_data

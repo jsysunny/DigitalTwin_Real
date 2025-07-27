@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/turtlebot_moveit" "/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/get_eef_pose" "/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/turtlebot_arm_controller" "TARGETS" "turtlebot_moveit" "get_eef_pose" "turtlebot_arm_controller" "DESTINATION" "lib/turtlebot_moveit")

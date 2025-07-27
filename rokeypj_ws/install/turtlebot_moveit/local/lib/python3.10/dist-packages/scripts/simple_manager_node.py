@@ -1,0 +1,1 @@
+/home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit/scripts/simple_manager_node.py

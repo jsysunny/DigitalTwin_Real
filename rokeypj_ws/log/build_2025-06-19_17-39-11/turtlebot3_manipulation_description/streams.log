@@ -1,0 +1,62 @@
+[0.111s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description
+[1.557s] -- The C compiler identification is GNU 11.4.0
+[1.559s] -- The CXX compiler identification is GNU 11.4.0
+[1.560s] -- Detecting C compiler ABI info
+[1.560s] -- Detecting C compiler ABI info - done
+[1.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.562s] -- Detecting C compile features
+[1.563s] -- Detecting C compile features - done
+[1.563s] -- Detecting CXX compiler ABI info
+[1.563s] -- Detecting CXX compiler ABI info - done
+[1.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.563s] -- Detecting CXX compile features
+[1.563s] -- Detecting CXX compile features - done
+[1.564s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.564s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.716s] -- Configuring done
+[1.722s] -- Generating done
+[1.725s] -- Build files have been written to: /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description
+[2.309s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description
+[2.313s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description -- -j6 -l6
+[2.440s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description -- -j6 -l6
+[2.484s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description
+[2.504s] -- Install configuration: ""
+[2.506s] -- Execute custom install script
+[2.508s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[2.536s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[2.571s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[2.591s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[2.610s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[2.629s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[2.651s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[2.675s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[2.695s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[2.714s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[2.732s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[2.757s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[2.784s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[2.802s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[2.822s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[2.848s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[2.873s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[2.895s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[2.917s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[2.937s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[2.965s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[2.988s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[3.012s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[3.033s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[3.065s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[3.088s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[3.108s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[3.127s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[3.155s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[3.180s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[3.202s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[3.223s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[3.277s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[3.304s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[3.318s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[3.339s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[3.382s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/rokeypj_ws/install/sample_pkg:/home/rokey-jw/rokeypj_ws/install/my_v4l2_camera_launch:/home/rokey-jw/rokeypj_ws/install/lane_follower_pkg:/home/rokey-jw/rokeypj_ws/install/lane_detector:/home/rokey-jw/rokeypj_ws/install/aruco_yolo:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description
