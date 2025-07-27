@@ -88,6 +88,7 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 
 ## 4. 🧭 동작 흐름 요약
 ## Lane_Follower
+
 ### 1. ⚙️ 파라미터 선언 및 동적 로딩
 
 - 여러 제어·검출 파라미터(Hue/Sat/Val 범위, 픽셀 임계치, 복구 대기시간·회전시간, PID 게인, 속도·가속도 한계 등)를 딕셔너리 `params`에 모아 선언.
@@ -197,6 +198,17 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 &nbsp;
 
 ## Aruco_Marker
+<img width="249" height="317" alt="image" src="https://github.com/user-attachments/assets/21a8fdd5-53c2-4bac-a920-fca9422b3c2d" />
+
+Camera: 영상 캡처 후
+/camera/image_raw/compressed 퍼블리시
+Aruco_detect: →영상 구독 ArUco →마커 검출
+detected_markers 퍼블리시
+Lane_detect: detected_markers →구독 detect하면 기존
+lane_detect stop -> /cmd_vel 퍼블리시
+Turtlebot_arm_controller: 서비스 발행
+Pick_and_place: /cmd_vel 등 트리거로 moveit_control
+서비스 호출 및 요청에 따라 로봇 암/그리퍼 동작 실행
 
 ## 5. Simul vs Real
 ## 🔍 Real-World vs Simulation: 기술 차이 비교
@@ -246,14 +258,13 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 | 특징 | 노이즈 많고 정지 정확도 필요 | 이상적인 센서 환경, 실시간 상태 시각화 |
 
 
-
 ## 6. 💻 코드 실행 방법
 
 ### 🚗 전체 시뮬레이션 실행 (Auto)
 - 코드: [`turtlebot3_autorace_2020.launch.py`](./turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3_autorace_2020.world)
 
 ```bash
-ros2 launch turtlebot3_gazebo turtlebot3_autorace_2020.world
+ros2 launch turtlebot3_manipulation_bringup hardware.launch.py
 ```
 
 
@@ -263,7 +274,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_autorace_2020.world
 - 코드: [`intrinsic_camera_calibration.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera/launch/intrinsic_camera_calibration.launch.py)
 
 ```bash
-ros2 launch turtlebot3_autorace_camera intrinsic_camera_calibration.launch.py
+ros2 launch turtlebot3_manipulation_moveit_config moveit_core.launch.py
 ```
 
 &nbsp;
@@ -272,7 +283,7 @@ ros2 launch turtlebot3_autorace_camera intrinsic_camera_calibration.launch.py
 - 코드: [`extrinsic_camera_calibration.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera/launch/extrinsic_camera_calibration.launch.py)
 
 ```bash
-ros2 launch turtlebot3_autorace_camera extrinsic_camera_calibration.launch.py
+ros2 run aruco_yolo camera_pub
 ```
 
 &nbsp;
@@ -281,7 +292,7 @@ ros2 launch turtlebot3_autorace_camera extrinsic_camera_calibration.launch.py
 - 코드: [`mux_node`](./turtlebot3_ws/src/cmd_vel_mux/cmd_vel_mux/mux_node.py)
 
 ```bash
-ros2 run cmd_vel_mux mux_node
+ros2 launch turtlebot3_manipulation_moveit_config servo.launch.py
 ```
 
 &nbsp;
@@ -290,7 +301,7 @@ ros2 run cmd_vel_mux mux_node
 - 코드: [`detect_lane.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_lane.launch.py)
 
 ```bash
-ros2 launch turtlebot3_autorace_detect detect_lane.launch.py
+ros2 run turtlebot_moveit turtlebot_arm_controller
 ```
 
 &nbsp;
@@ -299,7 +310,7 @@ ros2 launch turtlebot3_autorace_detect detect_lane.launch.py
 - 코드: [`control_lane.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_mission/launch/control_lane.launch.py)
 
 ```bash
-ros2 launch turtlebot3_autorace_mission control_lane.launch.py
+ros2 run lane_detector lane_detect
 ```
 
 &nbsp;
@@ -308,48 +319,12 @@ ros2 launch turtlebot3_autorace_mission control_lane.launch.py
 - 코드: [`detect_traffic_light.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_traffic_light.launch.py)
 
 ```bash
-ros2 launch turtlebot3_autorace_detect detect_traffic_light.launch.py
-```
-
-&nbsp;
-
-### 🛑 신호등 제어 (Control Traffic Light)
-- 코드: [`control_traffic_light.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_mission/launch/control_traffic_light.launch.py)
-
-```bash
-ros2 launch turtlebot3_autorace_mission control_traffic_light.launch.py
-```
-
-&nbsp;
-
-### 🪧 표지판 감지 (Detect Sign Combine)
-- 코드: [`detect_signcombine.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_signcombine.launch.py)
-
-```bash
-ros2 launch turtlebot3_autorace_detect detect_signcombine.launch.py
-```
-
-&nbsp;
-
-### 🅿️ 주차 감지 및 제어 (Detect Parking)
-- 코드: [`detect_parking.launch.py`](/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_parking.launch.py)
-
-```bash
-ros2 launch turtlebot3_autorace_detect detect_parking.launch.py
-```
-
-&nbsp;
-
-### 🌉 터널 정지 감지 (Detect Stop Tunnel)
-- 코드: [`detect_stop_tunnel.launch.py`](./turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_stop_tunnel.launch.py)
-
-```bash
-ros2 launch turtlebot3_autorace_detect detect_stop_tunnel.launch.py
+ros2 run aruco_yolo pick_and_place
 ```
 
 &nbsp;
 ## 6. 📷 시연 영상 / 이미지
-> https://youtu.be/A73iN4W6Q4w
+> https://youtu.be/hl8J-E7p_yg
 
 &nbsp;
 ## 7. 🌟 기대 효과
@@ -375,12 +350,23 @@ ros2 launch turtlebot3_autorace_detect detect_stop_tunnel.launch.py
 
 &nbsp;
 
-### ⚠️ 잘한 점 / 아쉬운 점
+### 느낀 점 및 경험한 성과
+- **장점**:
+  - 안정적인 중앙유지 기반의 주행 및 곡선에서도 안정된 차선 인식을 위한 능동적인 움직임이 있어, 여러 환경에서 보다 안정적인 주행 가능
+  - 어떤 조건에서도 시도하지 않았던 매니퓰레이터 이동으로 차선 감지 확보
+    
+- **추후 개선점 / 보완할 점**:
+  - 매니퓰레이터가 제한되어있을 때는 사용 & 시뮬레이션 코드에서 발전시켜야 함
+  - 자율주행의 기술이 뒷받침된 로직을 바탕으로 구현됨을 알게 되었으며 시뮬레이션과 실제 환경의 차이를 좁히기 위해 보완이 필요
 
-- **신호등 감지, 주차, 신호탐지를 활용한 네비게이션 등등 목표 기능들을 대부분 구현함.**
-
-🧩 **한계 및 개선점**:
-- SIFT 기반 특징점 추출 -> Yolo 기반 신호등, 표지판 인식
-- SLAM 기반 내비게이션 기술 자동화
+- 자율주행 기술이 뒷받침된 로직을 기반으로 구현되었다는 것을 시뮬레이션과 실제 환경 비교를 통해 체감
+- 좁은 환경, 비정형 상황 대응을 위한 보완 필요성 인지
 
 &nbsp;
+
+## 팀원
+정서윤 나승원 이동기 홍진규
+
+&nbsp;
+
+## +) Advanced
