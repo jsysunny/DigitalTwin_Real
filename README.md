@@ -16,7 +16,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 2. [🔧 구성 요소](#2--구성-요소)  
 3. [💻 사용 기술](#3--사용-기술)  
 4. [🧭 동작 흐름 요약](#4--동작-흐름-요약)
-5. [🧪 Simul vs Real](#5--Simul---Real)  
+5. [🧪 Simul vs Real](#5--Simul-vs-Real)  
 6. [💻 코드 실행 방법](#6--코드-실행-방법)  
 7. [📷 시연 영상/이미지](#7--시연-영상--이미지)  
 8. [🌟 기대 효과/ 한계점 및 개선점](#8--기대-효과)  
@@ -241,7 +241,7 @@ Rokey 휴게소 Autodrive 시스템은 시뮬레이션을 통해 다양한 도�
 
 &nbsp;
 
-### 🖐️📦 Pick_and_place
+### 🖐️ Pick_and_place
 - `/cmd_vel` 등 특정 조건 트리거 시  
 - `moveit_control` 서비스 호출  
 - 요청에 따라 로봇 암 및 그리퍼 동작 실행
