@@ -358,7 +358,12 @@ ros2 run aruco_yolo pick_and_place
 ```
 
 &nbsp;
+
 ## 7. 📷 시연 영상 / 이미지
+![3전체사진](https://github.com/user-attachments/assets/aabfcc64-3cc8-414a-bd93-be11d7ca29c1)
+
+&nbsp;
+
 > https://youtu.be/hl8J-E7p_yg
 
 &nbsp;
